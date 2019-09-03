@@ -17,6 +17,11 @@ public class DataStore {
             return new Response(false, "Failure! AccountId cannot be empty for Registration");
         }
 
+        if(startingBalance < 0)
+        {
+            return new Response(false, "Starting balance cannot be negative");
+        }
+
         try{
             registrationLock.acquire();
 
@@ -57,6 +62,9 @@ public class DataStore {
 
     Response transferMoney(String accountId1, String accountId2, Float amount)
     {
+        if(amount < 0)
+            return new Response(false, "Amount to be transferred cannot be negative");
+
         if(!checkIfAccountExists(accountId1))
             return new Response(false, "Account "+accountId1+" not registered to transfer funds");
 
