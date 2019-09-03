@@ -2,13 +2,13 @@ This is a server application having the REST Api to transfer money between clien
 The server is pretty light-weight , does not use any heavy frameworks such as spring.
 The server has 2 APIs - 
 
-* Register an account
-An account can be registsred with an inital starting balance. 
-For registration, the inputs to the system are account ids and starting balance.
-If not starting balance is mentioned, the starting balance is initialized to 0.
+* __Register an account__
+	* An account can be registsred with an inital starting balance. 
+	* For registration, the inputs to the system are account ids and starting balance.
+	* If not starting balance is mentioned, the starting balance is initialized to 0.
 
-* Transfer a specific amount between 2 accounts
-For fund transfer, the input are the account id to transfer from, transfer to and the amount to be transferred.
+* __Transfer a specific amount between 2 accounts__
+	* For fund transfer, the input are the account id to transfer from, transfer to and the amount to be transferred.
 
 The system does not generate account id, as the assumption made here is that would be done by a seperate 
 microservice which is beyond the scope of this problem.
