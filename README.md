@@ -19,7 +19,7 @@ race conditions in a multi-threaded environment and maintaining consistency.
 
 How to start the Server - 
 1. Via commandline
-	* Simply git clone the server repo into a folder.
+	* Simply git clone this server repo into a folder.
 	* Navigate to the directory - FundTransferAPI/src/main/java
 	* javac Application.java
 	* java Application
