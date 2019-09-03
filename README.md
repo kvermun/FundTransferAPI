@@ -27,4 +27,6 @@ How to start the Server -
 2. Via Intellij
 	* Simply add this as a new project in Intellij and run the main method in Application.java
 
+To test the server use the testing framework [here](https://github.com/kvermun/FundTransferAPITests).
+
    
