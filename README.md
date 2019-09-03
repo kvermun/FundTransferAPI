@@ -1,5 +1,5 @@
 This is a server application having the REST Api to transfer money between clients.
-The server is pretty light-weight , does not use any heavy frameworks such as spring.
+The server is pretty light-weight , does not use any heavy frameworks such as spring and is a minimal POC as what such fund transfer servers might look like.
 The server has 2 APIs - 
 
 * __Register an account__
